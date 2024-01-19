@@ -10,6 +10,9 @@ class Solution2 // Bank Account
 {
 public:
 	static float GetBalance(const std::string& accountName);
+
+private:
+	static float Action(const std::string& _action, const float amount);
 };
 
 #endif
