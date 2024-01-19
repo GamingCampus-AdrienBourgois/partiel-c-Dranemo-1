@@ -19,6 +19,9 @@ int main(int argc, char** argv)
 	// You can use this function to test a specific exercice, for example exercice 1 test 1
 	// You can test multiple exercices by calling multiple times the function AutograderRunTest
 
+	std::cout << "---------------- Exercice exemple ----------------" << std::endl;
+	ExerciceBase::AutograderRunTest(0, 0);
+	ExerciceBase::AutograderRunTest(0, 1);
 
 	std::cout << "---------------- Exercice 1 ----------------" << std::endl;
 	ExerciceBase::AutograderRunTest(1, 0);
