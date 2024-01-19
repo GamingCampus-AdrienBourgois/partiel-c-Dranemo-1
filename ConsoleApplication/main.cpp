@@ -35,6 +35,13 @@ int main(int argc, char** argv)
 	ExerciceBase::AutograderRunTest(2, 3);
 	ExerciceBase::AutograderRunTest(2, 4);
 
+	std::cout << "---------------- Exercice 3 ----------------" << std::endl;
+	ExerciceBase::AutograderRunTest(3, 0);
+	ExerciceBase::AutograderRunTest(3, 1);
+	ExerciceBase::AutograderRunTest(3, 2);
+	ExerciceBase::AutograderRunTest(3, 3);
+	ExerciceBase::AutograderRunTest(3, 4);
+
 
 
 	return 0;
